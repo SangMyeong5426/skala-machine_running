@@ -1,0 +1,63 @@
+{
+  "Baseline": {
+    "params": {
+      "n_estimators": 100,
+      "max_depth": 3,
+      "learning_rate": 0.1,
+      "min_child_weight": 10,
+      "subsample": 1,
+      "colsample_bytree": 1,
+      "random_state": 42
+    },
+    "train_mae": 0.4887506365776062,
+    "train_r2": 0.478773295879364,
+    "val_mae": 0.5432952046394348,
+    "val_r2": 0.38546180725097656,
+    "test_mae": 0.5309614539146423,
+    "test_r2": 0.3721107840538025,
+    "gap_mae": 0.05454456806182861,
+    "gap_r2": 0.09331148862838745
+  },
+  "Task1_Perfect": {
+    "params": {
+      "n_estimators": 2000,
+      "max_depth": 15,
+      "learning_rate": 0.3,
+      "min_child_weight": 1,
+      "subsample": 1,
+      "colsample_bytree": 1,
+      "reg_lambda": 0,
+      "gamma": 0,
+      "random_state": 42
+    },
+    "train_mae": 0.0005034124478697777,
+    "train_r2": 0.9999992847442627,
+    "val_mae": 0.5060839653015137,
+    "val_r2": 0.28299540281295776,
+    "test_mae": 0.5061438679695129,
+    "test_r2": 0.16855347156524658,
+    "gap_mae": 0.5055805528536439,
+    "gap_r2": 0.7170038819313049
+  },
+  "Task2_Best": {
+    "params": {
+      "n_estimators": 800,
+      "max_depth": 8,
+      "learning_rate": 0.05,
+      "min_child_weight": 3,
+      "subsample": 0.7,
+      "colsample_bytree": 0.7,
+      "reg_lambda": 20,
+      "gamma": 0,
+      "random_state": 42
+    },
+    "train_mae": 0.08552788943052292,
+    "train_r2": 0.977384626865387,
+    "val_mae": 0.44996097683906555,
+    "val_r2": 0.4906150698661804,
+    "test_mae": 0.4491308629512787,
+    "test_r2": 0.4599252939224243,
+    "gap_mae": 0.36443308740854263,
+    "gap_r2": 0.48676955699920654
+  }
+}
